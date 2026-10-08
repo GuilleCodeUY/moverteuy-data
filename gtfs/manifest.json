@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "20261005",
+  "sourceSha256": "0561b515551ef98d3a618f3aa1db746cd6a753419f0b765216d3c2649ad6e298",
+  "feedStartDate": 20261005,
+  "feedEndDate": 20261105,
+  "routesSha256": "dbada2fdc202860b99c15b6dacad16adc38587ec33cbff920ef37aa65f181b15",
+  "generatedAt": "2026-10-08T12:52:42Z",
+  "files": {
+    "patterns": {
+      "path": "0561b515551ef98d/routing_patterns.json.gzip",
+      "sha256": "c0f77fadff13c6d4bf78d9d2c9c50080a852cb2448d6ea188459232f90c462d4",
+      "bytes": 47030,
+      "schemaVersion": 1
+    },
+    "timetable": {
+      "path": "0561b515551ef98d/routing_timetable.json.gzip",
+      "sha256": "23611efe5cbecdad949e41a24cf8b1da884d7aa376a8a01ff81dd04211095164",
+      "bytes": 285370,
+      "schemaVersion": 1
+    }
+  }
+}
