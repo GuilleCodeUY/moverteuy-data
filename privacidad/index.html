@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · MoverteUY</title>
+<meta name="description" content="Qué datos usa la app MoverteUY, para qué y con quién se comparten.">
+<style>
+  :root {
+    --bg: #ffffff; --text: #1d2125; --muted: #5b6470; --line: #e3e6ea; --accent: #0b6bcb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121417; --text: #e8eaed; --muted: #a3abb5; --line: #2a2f35; --accent: #6cb1ff; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 10px; }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  a { color: var(--accent); }
+  .resumen { border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  .resumen ul { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de MoverteUY</h1>
+  <p class="meta">Vigente desde el 17 de octubre de 2026</p>
+
+  <p>MoverteUY es una aplicación para Android que muestra paradas, líneas, horarios y llegadas del transporte público de Montevideo y su área metropolitana. La desarrolla Guillermo, en Montevideo, Uruguay. Esta página explica qué datos usa la app, para qué y con quién se comparten.</p>
+
+  <div class="resumen">
+    <ul>
+      <li>No hay cuentas ni registro.</li>
+      <li>No hay publicidad.</li>
+      <li>No usamos herramientas de analítica ni de seguimiento.</li>
+      <li>No vendemos datos.</li>
+      <li>Tu ubicación se usa en el teléfono y no se guarda en nuestros servidores.</li>
+    </ul>
+  </div>
+
+  <h2>Ubicación</h2>
+  <p>Si das permiso, la app usa tu ubicación precisa o aproximada, solo mientras está abierta, para:</p>
+  <ul>
+    <li>mostrar las paradas cercanas y centrar el mapa;</li>
+    <li>calcular a qué distancia estás de una parada y armar las opciones de viaje;</li>
+    <li>mostrar el clima de tu zona.</li>
+  </ul>
+  <p>Para el clima, la app envía al servicio <a href="https://open-meteo.com/">Open-Meteo</a> coordenadas redondeadas a unos 1.000 metros, nunca tu posición exacta. Fuera de eso, tu ubicación no sale del teléfono.</p>
+  <p>La app no usa la ubicación en segundo plano. Podés negar o quitar el permiso desde los ajustes de Android; la app sigue funcionando, aunque sin paradas cercanas.</p>
+
+  <h2>Consultas de transporte</h2>
+  <p>Para mostrar llegadas y horarios, la app consulta un servidor intermedio de MoverteUY alojado en Cloudflare (<code>moverteuy-api.guilledesign.uy</code>) y, si ese servidor no responde, los servicios públicos de la Intendencia de Montevideo. Esas consultas incluyen el número de parada y las líneas, no tu ubicación ni datos que te identifiquen.</p>
+  <p>Como cualquier servicio de internet, Cloudflare recibe datos técnicos de la conexión, como la dirección IP, y puede conservarlos por un tiempo limitado por seguridad y funcionamiento. No los usamos para identificarte.</p>
+
+  <h2>Mapa y horarios</h2>
+  <ul>
+    <li>El mapa descarga sus imágenes de los servidores de <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, que reciben tu dirección IP y la zona del mapa que estás viendo, según su <a href="https://osmfoundation.org/wiki/Privacy_Policy">política de privacidad</a>.</li>
+    <li>Los horarios actualizados se descargan de GitHub Pages, que recibe tu dirección IP.</li>
+  </ul>
+
+  <h2>Verificación de la app</h2>
+  <p>La app usa Firebase App Check, de Google, con Play Integrity, para comprobar que las consultas vienen de una copia original instalada desde Google Play. Para eso, Google procesa información técnica del dispositivo y de la app, según la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
+
+  <h2>Datos guardados en tu teléfono</h2>
+  <p>Tus paradas y líneas favoritas, las paradas de casa y trabajo y tus preferencias se guardan solo en el teléfono. No las recibimos.</p>
+  <p>Si tenés activada la copia de seguridad de Android, esos datos pueden incluirse en la copia de tu cuenta de Google. Se borran al borrar los datos de la app o al desinstalarla.</p>
+
+  <h2>Sugerencias por correo</h2>
+  <p>Si nos escribís desde la sección Ayuda, la app abre tu aplicación de correo. Recibimos lo que nos mandes y tu dirección de correo, y los usamos solo para responderte.</p>
+
+  <h2>Niños</h2>
+  <p>La app no está dirigida a menores de 13 años y no recoge datos a sabiendas de menores de esa edad.</p>
+
+  <h2>Tus derechos</h2>
+  <p>De acuerdo con la Ley N° 18.331 de Protección de Datos Personales de Uruguay, podés pedirnos acceso, rectificación o eliminación de los datos que tengamos sobre vos (en la práctica, solo los correos que nos hayas mandado). Escribinos a <a href="mailto:contacto@guilledesign.uy">contacto@guilledesign.uy</a>.</p>
+
+  <h2>Cambios</h2>
+  <p>Si cambia lo que hace la app con los datos, actualizamos esta página y la fecha de vigencia de arriba.</p>
+
+  <h2>Contacto</h2>
+  <p><a href="mailto:contacto@guilledesign.uy">contacto@guilledesign.uy</a></p>
+</main>
+</body>
+</html>
