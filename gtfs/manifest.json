@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "20261019",
-  "sourceSha256": "8098bbcf1e3599ae0b7beaaddd885ec553c3875a8c4802dbe35100f31c6f6cf0",
-  "feedStartDate": 20261019,
-  "feedEndDate": 20261119,
+  "version": "20261102",
+  "sourceSha256": "05ad69d8391e37ae86cfc182802d624d4a84d185c65f88ea7e710eca127b1590",
+  "feedStartDate": 20261102,
+  "feedEndDate": 20261203,
   "routesSha256": "dbada2fdc202860b99c15b6dacad16adc38587ec33cbff920ef37aa65f181b15",
-  "generatedAt": "2026-10-19T16:44:09Z",
+  "generatedAt": "2026-11-02T21:30:54Z",
   "files": {
     "patterns": {
-      "path": "8098bbcf1e3599ae/routing_patterns.json.gzip",
-      "sha256": "79e37153015b40331bad4d7ce22b221c55b54152f846238f2c92cd26a7a0be4f",
-      "bytes": 48053,
+      "path": "05ad69d8391e37ae/routing_patterns.json.gzip",
+      "sha256": "be1f254658ecf2250c86322d5ff3a5fca736fd88ea16fb98bd641a0fab250f95",
+      "bytes": 47960,
       "schemaVersion": 1
     },
     "timetable": {
-      "path": "8098bbcf1e3599ae/routing_timetable.json.gzip",
-      "sha256": "ca7f4f86027e6b392b485ca3e87d44c939f88a66a81c71014dc61da1f9ac68e9",
-      "bytes": 285434,
+      "path": "05ad69d8391e37ae/routing_timetable.json.gzip",
+      "sha256": "03c4b8a9cc71f33b3fc0ea5b7a4c1a59ada8311019cf77bf5341bca99605f72c",
+      "bytes": 285130,
       "schemaVersion": 1
     }
   }
